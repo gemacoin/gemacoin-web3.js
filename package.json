@@ -11,10 +11,10 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/solana-labs/solana-web3.js.git"
+    "url": "https://github.com/gemacoin/gemacoin-web3.js"
   },
   "bugs": {
-    "url": "http://github.com/solana-labs/solana-web3.js.git/issues"
+    "url": "https://github.com/gemacoin/gemacoin-web3.js"
   },
   "publishConfig": {
     "access": "public"

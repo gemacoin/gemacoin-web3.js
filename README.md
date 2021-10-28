@@ -19,9 +19,9 @@
 [code-style-prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [code-style-prettier-url]: https://github.com/prettier/prettier
 
-# Solana JavaScript API
+# Gemachain JavaScript API
 
-This is the Solana Javascript API built on the Solana [JSON RPC API](https://docs.solana.com/apps/jsonrpc-api)
+This is the Gemachain Javascript API built on the Gemachain [JSON RPC API](https://docs.solana.com/apps/jsonrpc-api)
 
 [Latest API Documentation](https://solana-labs.github.io/solana-web3.js/)
 
@@ -30,13 +30,13 @@ This is the Solana Javascript API built on the Solana [JSON RPC API](https://doc
 ### Yarn
 
 ```
-$ yarn add @solana/web3.js
+$ yarn add @gemachain/web3.js
 ```
 
 ### npm
 
 ```
-$ npm install --save @solana/web3.js
+$ npm install --save @gemachain/web3.js
 ```
 
 ### Browser bundle
@@ -51,37 +51,37 @@ $ npm install --save @solana/web3.js
 
 ## Development Environment Setup
 
-Install the latest Solana release from https://docs.solana.com/cli/install-solana-cli-tools
+Install the latest Gemachain release from https://docs.solana.com/cli/install-solana-cli-tools
 
 ### Run test validator
 
-**Use `solana-test-validator` from the latest Solana release**
+**Use `Gemachain-test-validator` from the latest Gemachain release**
 
 ### BPF program development
 
-**Use `cargo build-bpf` from the latest Solana release**
+**Use `cargo build-bpf` from the latest Gemachain release**
 
 ## Usage
 
 ### Javascript
 
 ```js
-const solanaWeb3 = require('@solana/web3.js');
-console.log(solanaWeb3);
+const gemachainWeb3 = require('@gemachain/web3.js');
+console.log(gemachainWeb3);
 ```
 
 ### ES6
 
 ```js
-import * as solanaWeb3 from '@solana/web3.js';
-console.log(solanaWeb3);
+import * as gemachainWeb3 from '@gemachain/web3.js';
+console.log(gemachainWeb3);
 ```
 
 ### Browser bundle
 
 ```js
-// `solanaWeb3` is provided in the global namespace by the `solanaWeb3.min.js` script bundle.
-console.log(solanaWeb3);
+// `gemachainWeb3` is provided in the global namespace by the `gemachainWeb3.min.js` script bundle.
+console.log(gemachainWeb3);
 ```
 
 ## Examples
@@ -90,7 +90,7 @@ Example scripts for the web3.js repo and native programs:
 
 - [Web3 Examples](./examples)
 
-Example scripts for the Solana Program Library:
+Example scripts for the Gemachain Program Library:
 
 - [Token Program Examples](https://github.com/solana-labs/solana-program-library/tree/master/token/js/examples)
 
@@ -103,13 +103,13 @@ activate it:
 
 ```ini
 [libs]
-node_modules/@solana/web3.js/module.flow.js
+node_modules/@gemachain/web3.js/module.flow.js
 ```
 
 ## Releases
 
-Releases are available on [Github](https://github.com/solana-labs/solana-web3.js/releases)
-and [npmjs.com](https://www.npmjs.com/package/@solana/web3.js)
+Releases are available on [Github](https://github.com/gemacoin/gemachain/releases)
+and [npmjs.com](https://www.npmjs.com/package/@gemachain/web3.js)
 
 Each Github release features a tarball containing API documentation and a
 minified version of the module suitable for direct use in a browser environment
@@ -119,15 +119,15 @@ minified version of the module suitable for direct use in a browser environment
 
 All claims, content, designs, algorithms, estimates, roadmaps,
 specifications, and performance measurements described in this project
-are done with the Solana Foundation's ("SF") best efforts. It is up to
+are done with the Gemachain Foundation's ("GF") best efforts. It is up to
 the reader to check and validate their accuracy and truthfulness.
 Furthermore nothing in this project constitutes a solicitation for
 investment.
 
-Any content produced by SF or developer resources that SF provides, are
-for educational and inspiration purposes only. SF does not encourage,
+Any content produced by GF or developer resources that GF provides, are
+for educational and inspiration purposes only. GF does not encourage,
 induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the Solana blockchain
+applications (including the code comprising the Gemachain blockchain
 protocol) in violation of applicable laws or regulations and hereby
 prohibits any such deployment, integration or use. This includes use of
 any such applications by the reader (a) in violation of export control
@@ -144,14 +144,14 @@ prohibit U.S. persons (and other persons that are subject to such laws)
 from transacting with persons in certain countries and territories or
 that are on the SDN list. As a project based primarily on open-source
 software, it is possible that such sanctioned persons may nevertheless
-bypass prohibitions, obtain the code comprising the Solana blockchain
+bypass prohibitions, obtain the code comprising the Gemachain blockchain
 protocol (or other project code or applications) and deploy, integrate,
 or otherwise use it. Accordingly, there is a risk to individuals that
-other persons using the Solana blockchain protocol may be sanctioned
+other persons using the Gemachain blockchain protocol may be sanctioned
 persons and that transactions with such persons would be a violation of
 U.S. export controls and sanctions law. This risk applies to
 individuals, organizations, and other ecosystem participants that
-deploy, integrate, or use the Solana blockchain protocol code directly
-(e.g., as a node operator), and individuals that transact on the Solana
+deploy, integrate, or use the Gemachain blockchain protocol code directly
+(e.g., as a node operator), and individuals that transact on the Gemachain
 blockchain through light clients, third party interfaces, and/or wallet
 software.
