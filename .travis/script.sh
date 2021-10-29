@@ -1,7 +1,7 @@
 # |source| this file
 
 set -ex
-solana --version
+gemachain --version
 
 npm run clean
 npm run build

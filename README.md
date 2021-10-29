@@ -11,9 +11,9 @@
 [travis-url]: https://travis-ci.org/solana-labs/solana-web3.js
 [codecov-image]: https://codecov.io/gh/solana-labs/solana-web3.js/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/solana-labs/solana-web3.js
-[npm-image]: https://img.shields.io/npm/v/@solana/web3.js.svg?style=flat
-[npm-downloads-image]: https://img.shields.io/npm/dm/@solana/web3.js.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/@solana/web3.js
+[npm-image]: https://img.shields.io/npm/v/@gemachain/web3.js.svg?style=flat
+[npm-downloads-image]: https://img.shields.io/npm/dm/@gemachain/web3.js.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/@gemachain/web3.js
 [semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
 [code-style-prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
@@ -43,10 +43,10 @@ $ npm install --save @gemachain/web3.js
 
 ```html
 <!-- Development (un-minified) -->
-<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+<script src="https://unpkg.com/@gemachain/web3.js@latest/lib/index.iife.js"></script>
 
 <!-- Production (un-minified) -->
-<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+<script src="https://unpkg.com/@gemachain/web3.js@latest/lib/index.iife.min.js"></script>
 ```
 
 ## Development Environment Setup
@@ -97,7 +97,7 @@ Example scripts for the Gemachain Program Library:
 ## Flow
 
 A [Flow library definition](https://flow.org/en/docs/libdefs/) is provided at
-https://unpkg.com/@solana/web3.js@latest/module.flow.js.
+https://unpkg.com/@gemachain/web3.js@latest/module.flow.js.
 Download the file and add the following line under the [libs] section of your project's `.flowconfig` to
 activate it:
 

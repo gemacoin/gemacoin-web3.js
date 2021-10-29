@@ -1,6 +1,6 @@
 import bs58 from 'bs58';
 import {Buffer} from 'buffer';
-import {Token, u64} from '@solana/spl-token';
+import {Token, u64} from '@gemachain/gpl-token';
 import {expect, use} from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 

@@ -429,13 +429,13 @@ const SignatureReceivedResult = literal('receivedSignature');
  * Version info for a node
  */
 export type Version = {
-  /** Version of solana-core */
-  'solana-core': string;
+  /** Version of gemachain-core */
+  'gemachain-core': string;
   'feature-set'?: number;
 };
 
 const VersionResult = pick({
-  'solana-core': string(),
+  'gemachain-core': string(),
   'feature-set': optional(number()),
 });
 
@@ -2663,7 +2663,7 @@ export class Connection {
       throw new Error(
         `Transaction was not confirmed in ${duration.toFixed(
           2,
-        )} seconds. It is unknown if it succeeded or failed. Check signature ${signature} using the Solana Explorer or CLI tools.`,
+        )} seconds. It is unknown if it succeeded or failed. Check signature ${signature} using the gemachain Explorer or CLI tools.`,
       );
     }
 
@@ -3404,7 +3404,7 @@ export class Connection {
    * Request an allocation of carats to the specified address
    *
    * ```typescript
-   * import { Connection, PublicKey, CARATS_PER_GEMA } from "@solana/web3.js";
+   * import { Connection, PublicKey, CARATS_PER_GEMA } from "@gemachain/web3.js";
    *
    * (async () => {
    *   const connection = new Connection("https://api.testnet.solana.com", "confirmed");

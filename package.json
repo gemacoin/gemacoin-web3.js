@@ -1,13 +1,13 @@
 {
   "name": "@gemachain/web3.js",
-  "version": "0.0.0-development-2",
+  "version": "0.0.0-development-3",
   "description": "Gemachain Javascript API",
   "keywords": [
     "api",
     "blockchain"
   ],
   "license": "MIT",
-  "author": "Gemachain Maintainers <maintainers@solana.com>",
+  "author": "Gemachain Maintainers <>",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -52,14 +52,14 @@
     "ok": "run-s lint test doc",
     "pretty": "prettier --check '{,{src,test}/**/}*.{j,t}s'",
     "pretty:fix": "prettier --write '{,{src,test}/**/}*.{j,t}s'",
-    "re": "semantic-release --repository-url git@github.com:solana-labs/solana-web3.js.git",
+    "re": "semantic-release --repository-url git@github.com:gemacoin/gemachain-web3.js.git",
     "test": "mocha -r ts-node/register './test/**/*.test.ts'",
     "test:cover": "TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc --reporter=lcov mocha -r ts-node/register './test/**/*.test.ts'",
     "test:browser": "TEST_LIVE=1 npm run build:browser-test && mocha-headless-chrome -f http://localhost:8080/mocha.html --timeout 180000",
     "test:browser-with-server": "start-server-and-test 'http-server -p 8080' 8080 test:browser",
-    "test:browser-with-test-validator": "start-server-and-test 'solana-test-validator --reset --quiet' http://localhost:8899/health test:browser-with-server",
+    "test:browser-with-test-validator": "start-server-and-test 'gemachain-test-validator --reset --quiet' http://localhost:8899/health test:browser-with-server",
     "test:live": "TEST_LIVE=1 npm run test",
-    "test:live-with-test-validator": "start-server-and-test 'solana-test-validator --reset --quiet' http://localhost:8899/health test:live"
+    "test:live-with-test-validator": "start-server-and-test 'gemachain-test-validator --reset --quiet' http://localhost:8899/health test:live"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
